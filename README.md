@@ -1,18 +1,30 @@
-🚫 Telemetry & Tracker Blocklist
+[![Platform](https://img.shields.io/badge/Platform-Pi--hole%20%7C%20AdGuard-blue?style=flat-square)](https://pi-hole.net/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Display](https://img.shields.io/badge/Display-Plain%20Text-orange?style=flat-square)](https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry%20and%20tracker%20block%20list.txt)
 
-⚡ Features
+**Keep your network private. Block telemetry, trackers, and analytics. Works with Pi-hole, AdGuard Home, or any DNS blocker.**
 
-🛡️ Blocks telemetry & tracking domains.
+## Features
 
-🚀 Speeds up browsing & reduces unwanted requests.
-
-⚙️ Compatible with Pi-hole, AdGuard Home, and other DNS-based blockers.
-
-🔄 Regularly updated to catch new trackers.
+- Blocks telemetry & tracking domains  
+- Compatible with Pi-hole, AdGuard, etc.  
+- Regularly updated  
 
 Add the URL:
 
 https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry_and_tracker_block_list.txt
+
+## Installation
+
+**Pi-hole:**  
+1. Group Management → Adlists  
+2. Add URL above  
+3. Update gravity  
+
+**AdGuard Home:**  
+1. Filters → DNS Blocklists  
+2. Add URL above  
+3. Update & apply  
 
 📜 License
 
