@@ -1,5 +1,5 @@
 # Title: Tracker&Telemetry blocker list made by debugtree
-# Version: 2025beta1
+# Version: beta1.1-7.12.25
 # Description: This is blocklist is for blocking telemetry and trackers
 
 
@@ -178,3 +178,4 @@ asfoc.gbc.criteo.com
 asforo.gbc.criteo.com
 rtb-google.as.criteo.com
 default-internal.rtb-google.eu.criteo.com
+
