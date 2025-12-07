@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/
 
 📜 License
 
-MIT License — free to use, share, and improve.
+MIT License 
 
 🖤 Made with privacy in mind
 
