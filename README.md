@@ -12,7 +12,7 @@
 
 Add the URL:
 
-https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry%20and%20tracker%20block%20list.txt
+https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry%20_and_tracker_block_list.txt
 
 📜 License
 
