@@ -152,7 +152,6 @@ ocsp.apple.com
 captive.apple.com
 gs.apple.com
 xp.apple.com
-www.apple.com
 api-glb.apple.com
 ereg.adobe.com
 ims-na1.adobelogin.com
