@@ -1,5 +1,5 @@
 #Telemetry and tracker blocklist made by debugtree
-#Version 1.11
+#Version 1.12
 
 
 
@@ -104,14 +104,6 @@ ims-na1.adobelogin.com
 adobe-dns.adobe.com
 
 
-# UNITY 
-api.uca.cloud.unity3d.com
-
-
-# BRANCH.IO 
-api.branch.io
-
-
 # LEANPLUM
 leanplum.com
 www.leanplum.com
@@ -206,10 +198,6 @@ yastatic.net
 metrika.yandex.ru
 
 
-# WHATSAPP
-crashlogs.whatsapp.net
-
-
 # AMAZON 
 device-metrics-us.amazon.com
 device-metrics-eu.amazon.com
@@ -225,10 +213,6 @@ beacon.cloudflare.com
 telemetry.nvidia.com
 gfwsl.geforce.com
 events.gfe.nvidia.com
-
-
-# INSTAGRAM
-graph.instagram.com
 
 
 # FIREFOX
@@ -251,7 +235,7 @@ suggestions.services.mozilla.com
 # AMD
 api.amd.co
 
-# ANDROID
+#ANDROID
 logcat.googleplex.com
 data.mistat.xiaomi.com
 tracking.opencpu.org
@@ -263,3 +247,72 @@ diagnostics.me-cloud.com
 
 # HUAWEI
 servicesupport.hicloud.com
+
+
+# SAMSUNG
+samsungcloudsolution.com
+samsungcloudsolution.net
+samsungacr.com
+internetat.tv
+samsungads.com
+samsungadhub.com
+
+# LG 
+lgtvsdp.com
+lgsmartad.com
+lgappstv.com
+lgtvonline.lge.com
+alphonso.tv
+log.internetat.tv
+
+
+# PANASONIC
+0077777700140002.myhomescreen.tv  
+collect.myhomescreen.tv  
+usage.myhomescreen.tv  
+collect-us-fy2014.myhomescreen.tv  
+usage-us-fy2018.myhomescreen.tv  
+collect-eu-fy2016.myhomescreen.tv  
+usage-eu-fy2017.myhomescreen.tv  
+
+
+# ROKU
+cooper.logs.roku.com  
+track.sr.roku.com  
+p.ads.roku.com  
+scribe.logs.roku.com  
+cloudservices.roku.com  
+bif.sr.roku.com  
+traces.sr.roku.com  
+austin.logs.roku.com  
+liberty.logs.roku.com
+
+
+# GENERAL
+api.amplitude.com            
+data.lumosity.com             
+telemetry.crashlytics.com    
+collector-01.sentry.io       
+stats.pushbullet.com           
+metrics.mixpanel.com          
+analytics.segment.io         
+track.clevertap.com           
+stats.bugsnag.com             
+events.bitrise.io            
+api.rollbar.com               
+tracker.appsignal.com         
+monitoring.datadoghq.com      
+telemetry.cloudflareinsights.com 
+log.steampowered.com          
+updates.slack.com             
+stats.spotify.com             
+api.docker.com                
+telemetry.jetbrains.com      
+metrics.notion.so             
+log.vivaldi.net               
+api.zoom.us                   
+events.discord.com             
+graph.instagram.com
+api.uca.cloud.unity3d.com
+api.branch.io
+crashlogs.whatsapp.net
