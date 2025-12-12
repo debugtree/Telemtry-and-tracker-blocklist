@@ -72,12 +72,6 @@ diagnostics.support.microsoft.com
 statsfe2.update.microsoft.com
 
 
-
-# Windows Push Notification Service
-*.wns.windows.com
-par02p.wns.windows.com
-
-
 # APPLE 
 ocsp.apple.com
 captive.apple.com
@@ -194,7 +188,6 @@ fls-na.amazon.com
 
 # CLOUDFLARE 
 beacon.cloudflare.com
-cdn-cgi/trace
 
 
 # NVIDIA
@@ -235,3 +228,4 @@ tracking.intl.xiaomi.com
 tss.htc.com
 s-update.samsung.com
 diagnostics.me-cloud.com
+
