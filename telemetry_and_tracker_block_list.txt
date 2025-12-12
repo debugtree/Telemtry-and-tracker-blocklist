@@ -1,5 +1,5 @@
 #Telemetry and tracker blocklist made by debugtree
-#Version 1.1
+#Version 1.11
 
 
 
@@ -24,6 +24,7 @@ connect.facebook.net
 
 # TWITTER 
 analytics.twitter.com
+ads.twitter.com
 
 
 # MICROSOFT
@@ -86,7 +87,15 @@ gsa.apple.com
 init-p01md.apple.com
 metrics.apple.com
 metrics.icloud.com
+stats.gc.apple.com
+iadsdk.apple.com
 
+
+# QUIZDUELL
+rt.applovin.com
+d.applvn.com
+a.applvn.com
+applvn.com
 
 
 # ADOBE 
@@ -101,6 +110,12 @@ api.uca.cloud.unity3d.com
 
 # BRANCH.IO 
 api.branch.io
+
+
+# LEANPLUM
+leanplum.com
+www.leanplum.com
+api.leanplum.com
 
 
 # ACT-ON 
@@ -164,6 +179,12 @@ mon.tiktokv.com
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 tr.snapchat.com
+adserver.snapads.com
+euw.adserver.snapads.com
+euc.adserver.snapads.com
+usc.adserver.snapads.com
+ase.adserver.snapads.com
+
 
 
 # REDDIT 
@@ -172,11 +193,21 @@ pixel.reddit.com
 track.redditinc.com
 
 
+# CRASHLYTICS
+e.crashlytics.com
+reports.crashlytics.com
+settings.crashlytics.com
+
+
 # YANDEX 
 mc.yandex.ru
 extmaps-api.yandex.net
 yastatic.net
 metrika.yandex.ru
+
+
+# WHATSAPP
+crashlogs.whatsapp.net
 
 
 # AMAZON 
@@ -229,3 +260,6 @@ tss.htc.com
 s-update.samsung.com
 diagnostics.me-cloud.com
 
+
+# HUAWEI
+servicesupport.hicloud.com
