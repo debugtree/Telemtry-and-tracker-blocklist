@@ -10,6 +10,7 @@ www.googletagmanager.com
 app-measurement.com
 firebase-settings.crashlytics.com
 firebaseinstallations.googleapis.com
+firebaselogging.googleapis.com
 clients1.google.com
 clients2.google.com
 clients3.google.com
@@ -79,6 +80,8 @@ metrics.apple.com
 metrics.icloud.com
 stats.gc.apple.com
 iadsdk.apple.com
+analytics.apple.com
+guzzoni.apple.com
 
 
 # QUIZDUELL
@@ -302,3 +305,19 @@ ads.twitter.com
 servicesupport.hicloud.com
 api.amd.co
 beacon.cloudflare.com
+
+
+# SMARTHOME
+metrics.arlo.com
+tracking.arlo.com
+analytics.tuya.com
+telemetry.controlmyspa.com
+analytics.controlmyspa.com
+metrics.controlmyspa.com
+report.tuya.com
+metrics.amazon.com
+telemetry.amazon.com
+analytics.meethue.com
+log.tuya.com
+analytics.withings.com
+log.withings.com
