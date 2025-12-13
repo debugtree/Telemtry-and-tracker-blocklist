@@ -12,7 +12,7 @@
 
 Add the URL:
 
-https://raw.githubusercontent.com/debugtree/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry_and_tracker_block_list.txt
+https://raw.githubusercontent.com/rootneo404/Telemtry-and-tracker-blocklist/refs/heads/main/telemetry_and_tracker_block_list.txt
 
 ## Installation
 
