@@ -1,22 +1,10 @@
-#Telemetry and tracker blocklist made by rootneo404
-#Version 1.21
-
-
-
-#GOOGLE 
+# GOOGLE
 www.google-analytics.com
 ssl.google-analytics.com
 www.googletagmanager.com
 app-measurement.com
 firebase-settings.crashlytics.com
-firebaseinstallations.googleapis.com
 firebaselogging.googleapis.com
-clients1.google.com
-clients2.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-clients.google.com
 chrome-telemetry.com
 pagead2.googlesyndication.com
 googleads.g.doubleclick.net
@@ -27,7 +15,7 @@ doubleclick.net
 googlesyndication.com
 partnerad.l.doubleclick.net
 securepubads.g.doubleclick.net
-
+imasdk.googleapis.com
 
 # MICROSOFT
 umwatson.events.data.microsoft.com
@@ -49,7 +37,6 @@ preview.msn.com
 tele.trafficmanager.net
 telecommand.telemetry.microsoft.com
 telemetry.appex.bing.net
-telemetry.microsoft.com
 telemetry.remoteapp.windowsazure.com
 telemetry.urs.microsoft.com
 wes.df.telemetry.microsoft.com
@@ -60,20 +47,13 @@ ads2.msn.com
 ads3.msn.com
 h1.msn.com
 h2.msn.com
-telecommand.telemetry.microsoft.com
 telecommand.telemetry.microsoft.com.nsatc.net
 browser.events.data.msn.com
-edge.microsoft.com
-api.msn.com
 arc.msn.com
 mobile.events.data.microsoft.com
-msedge.net
 watson.telemetry.microsoft.com
-wes.df.telemetry.microsoft.com
 sqm.telemetry.microsoft.com
-fe2.update.microsoft.com
 diagnostics.support.microsoft.com
-statsfe2.update.microsoft.com
 test.activity.windows.com
 survey.watson.microsoft.com
 alpha.telemetry.microsoft.com
@@ -81,8 +61,7 @@ api.cortana.ai
 analyticsehnwe.servicebus.windows.net
 analyticspixel.microsoft.com
 
-
-# APPLE 
+# APPLE
 analytics-edge.apple.com
 metrics-edge.apple.com
 securemetrics.apple.com
@@ -91,33 +70,121 @@ feedbackws.apple.com
 notes-analytics.apple.com
 diagnostics.apple.com
 
+# ADOBE
+ereg.adobe.com
+adobedtm.com
+demdex.net
+omtrdc.net
+2o7.net
+
+# AMAZON
+device-metrics-us.amazon.com
+device-metrics-eu.amazon.com
+device-metrics-fe.amazon.com
+fls-na.amazon.com
+fls-eu.amazon.com
+unagi-eu.amazon.com
+avpk-a1qm4gk9wf1u77-1.zaz.api.amazonvideo.com
+metrics.amazon.com
+telemetry.amazon.com
+9w2zed1szg.execute-api.us-east-1.amazonaws.com
+ads.amazon.com
+advertising.amazon.com
+adservice.amazon.com
+adservice.amazon.co.uk
+adservice.amazon.de
+adservice.amazon.fr
+adservice.amazon.ca
+adservice.amazon.in
+device-metrics.amazon.com
+dcape-na.amazon.com
+dcape.amazon.com
+prod.tahoe.amazon.com
+recommendations.amazon.com
+recommendations.amazon.co.uk
+fls.amazon.com
+logs.amazon.com
+
+# SAMSUNG
+samsungacr.com
+samsungads.com
+samsungadhub.com
+sas.samsungcloudsolution.com
+analytics-api.samsunghealthcn.com
+analytics.bigdata.samsung.com
+events.samsungads.com
+ads.samsungads.com
+ad.samsungadhub.com
+rportals.com
+adgear.com
+advertiserportals.com
+tls.samsungqbe.com
+osb-v2.samsungqbe.com
+osb-eusvc-v2.samsungqbe.com
+osb-tnc-v2-appsacc.samsungqbe.com
+osb-auth-eusvc-v2.samsungqbe.com
+scs.samsungqbe.com
+
+# LG
+lgtvsdp.com
+lgsmartad.com
+alphonso.tv
+log.internetat.tv
+ad.lgappstv.com
+ibis.lgappstv.com
+jp.rdx2.lgtvsdp.com
+jp.lgtvsdp.com
+jp.info.lgsmartad.com
+lgad.cjpowercast.com.edgesuite.net
+smartclip.com
+smartclip.net
+smartshare.lgtvsdp.com
+us.ad.lgsmartad.com
+us.ibs.lgappstv.com
+us.info.lgsmartad.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
+yumenetworks.com
+us.cdpbeacon.lgtvcommon.com
+us.cdpsvc.lgtvcommon.com
+us.homeprv.lgtvcommon.com
+us.nudge.lgtvcommon.com
+us.rdl.lgtvcommon.com
+us.recommend.lgtvcommon.com
+us.lgsmartad.com
+us.service.lgtvcommon.com
+
+# PANASONIC
+0077777700140002.myhomescreen.tv
+collect.myhomescreen.tv
+usage.myhomescreen.tv
+collect-us-fy2014.myhomescreen.tv
+usage-us-fy2018.myhomescreen.tv
+collect-eu-fy2016.myhomescreen.tv
+usage-eu-fy2017.myhomescreen.tv
+campaigns.panasonic.eu
+
+# ROKU
+cooper.logs.roku.com
+track.sr.roku.com
+p.ads.roku.com
+scribe.logs.roku.com
+bif.sr.roku.com
+traces.sr.roku.com
+austin.logs.roku.com
+liberty.logs.roku.com
 
 # CISCO
-analytics.cisco.com   
-metrics.cisco.com     
+analytics.cisco.com
+metrics.cisco.com
 images.response.cisco.com
 
-
-# MIST/JUNIPER
-telemetry.mist.com    
-insight.mist.com      
-metrics.mist.com      
+# MIST / JUNIPER
+telemetry.mist.com
+insight.mist.com
+metrics.mist.com
 telemetry.juniper.net
 amer.juniper.net
-
-
-# QUIZDUELL
-rt.applovin.com
-d.applvn.com
-a.applvn.com
-applvn.com
-
-
-# ADOBE 
-ereg.adobe.com
-ims-na1.adobelogin.com
-adobe-dns.adobe.com
-
 
 # INTEL
 ainu.intel.cn
@@ -136,14 +203,152 @@ ainu.intel.it
 ainu.intel.la
 ainu.intel.pl
 
+# NVIDIA
+telemetry.nvidia.com
+gfwsl.geforce.com
+events.gfe.nvidia.com
+
+# FIREFOX
+incoming.telemetry.mozilla.org
+telemetry.mozilla.org
+telemetry.mozilla.com
+incoming.telemetry.prod.mozaws.net
+metrics.mozilla.com
+crash-reports.mozilla.com
+crash-stats.mozilla.com
+reports.mozilla.com
+fhr.data.mozilla.com
+data.mozilla.com
+suggest.mozilla.org
+
+# FACEBOOK / META
+pixel.facebook.com
+graph.facebook.com
+
+# TWITTER / X
+analytics.twitter.com
+ads.twitter.com
+
+# TIKTOK
+analytics.tiktok.com
+business.tiktok.com
+log.byteoversea.com
+log.tiktokv.com
+mon.tiktokv.com
+
+# SNAPCHAT
+sc-analytics.appspot.com
+app-analytics.snapchat.com
+tr.snapchat.com
+adserver.snapads.com
+euw.adserver.snapads.com
+euc.adserver.snapads.com
+usc.adserver.snapads.com
+ase.adserver.snapads.com
+
+# REDDIT
+events.reddit.com
+pixel.reddit.com
+track.redditinc.com
+alb.reddit.com
+
+# YANDEX
+mc.yandex.ru
+extmaps-api.yandex.net
+yastatic.net
+metrika.yandex.ru
+an.yandex.ru
+
+# XIAOMI
+abtest.mistat.xiaomi.com
+mitv.tracking.intl.miui.com
+tracking.intl.miui.com
+data.mistat.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+api.ad.xiaomi.com
+api.ad.intl.xiaomi.com
+api.admob.xiaomi.com
+cdn.ad.xiaomi.com
+a.stat.xiaomi.com
+globalapi.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+ssp.ad.xiaomi.com
+e.ad.xiaomi.com
+new.api.ad.xiaomi.com
+test.ad.xiaomi.com
+data.mistat.xiaomi.com
+abtest.mistat.intl.xiaomi.com
+adv.sec.miui.com
+adv.sec.intl.miui.com
+cc.sys.miui.com
+cc.sys.intl.xiaomi.com
+ccc.sys.miui.com
+ccc.sys.intl.xiaomi.com
+
+# AD NETWORKS
+outbrain.com
+widgets.outbrain.com
+taboola.com
+trc.taboola.com
+pubmatic.com
+rubiconproject.com
+openx.net
+moatads.com
+stickyadstv.com
+imrworldwide.com
+pagead2.googlesyndication.com
+default-internal.rtb-google.us.criteo.com
+default-internal.rtb-inmobi.us.criteo.com
+rtb-google.as.criteo.com
+default-internal.rtb-google.eu.criteo.com
+asfoc.gbc.criteo.com
+asforo.gbc.criteo.com
+sb.scorecardresearch.com
+b.scorecardresearch.com
+rt.applovin.com
+d.applvn.com
+a.applvn.com
+applvn.com
+adservice.google.com
+
+# ANALYTICS & SESSION RECORDING
+chartbeat.com
+newrelic.com
+nr-data.net
+optimizely.com
+contentsquare.net
+fullstory.com
+logrocket.com
+heapanalytics.com
+mouseflow.com
+smartlook.com
+static.hotjar.com
+api.amplitude.com
+metrics.mixpanel.com
+analytics.segment.io
+track.clevertap.com
+api.branch.io
+events.launchdarkly.com
+mobile.launchdarkly.com
+analytics.yahoo.com
+
+# CRASHLYTICS / ERROR TRACKING
+e.crashlytics.com
+reports.crashlytics.com
+settings.crashlytics.com
+telemetry.crashlytics.com
+collector-01.sentry.io
+stats.bugsnag.com
+api.rollbar.com
+tracker.appsignal.com
+monitoring.datadoghq.com
 
 # LEANPLUM
 leanplum.com
 www.leanplum.com
 api.leanplum.com
 
-
-# ACT-ON 
+# ACT-ON
 a44686.actonservice.com
 a44688.actonservice.com
 a44708.actonservice.com
@@ -179,147 +384,7 @@ a44876.actonservice.com
 aircuity.actonservice.com
 airefcoinc.actonservice.com
 
-
-# COMSCORE 
-sb.scorecardresearch.com
-b.scorecardresearch.com
-
-
-# CRITEO 
-default-internal.rtb-google.us.criteo.com
-default-internal.rtb-inmobi.us.criteo.com
-rtb-google.as.criteo.com
-default-internal.rtb-google.eu.criteo.com
-asfoc.gbc.criteo.com
-asforo.gbc.criteo.com
-
-
-# TIKTOK 
-analytics.tiktok.com
-business.tiktok.com
-log.byteoversea.com
-log.tiktokv.com
-mon.tiktokv.com
-
-
-# SNAPCHAT 
-sc-analytics.appspot.com
-app-analytics.snapchat.com
-tr.snapchat.com
-adserver.snapads.com
-euw.adserver.snapads.com
-euc.adserver.snapads.com
-usc.adserver.snapads.com
-ase.adserver.snapads.com
-
-
-# REDDIT 
-events.reddit.com
-pixel.reddit.com
-track.redditinc.com
-alb.reddit.com
-
-
-# CRASHLYTICS
-e.crashlytics.com
-reports.crashlytics.com
-settings.crashlytics.com
-
-
-# YANDEX 
-mc.yandex.ru
-extmaps-api.yandex.net
-yastatic.net
-metrika.yandex.ru
-
-
-# XIAOMI
-abtest.mistat.xiaomi.com
-mitv.tracking.intl.miui.com
-tracking.intl.miui.com
-data.mistat.intl.xiaomi.com
-sdkconfig.ad.intl.xiaomi.com
-api.ad.xiaomi.com
-api.ad.intl.xiaomi.com
-api.admob.xiaomi.com
-cdn.ad.xiaomi.com
-a.stat.xiaomi.com
-globalapi.ad.xiaomi.com
-sdkconfig.ad.xiaomi.com
-ssp.ad.xiaomi.com
-e.ad.xiaomi.com
-new.api.ad.xiaomi.com
-test.ad.xiaomi.com
-tracking.intl.miui.com
-data.mistat.xiaomi.com
-data.mistat.intl.xiaomi.com
-abtest.mistat.xiaomi.com
-abtest.mistat.intl.xiaomi.com
-adv.sec.miui.com
-adv.sec.intl.miui.com
-cc.sys.miui.com
-cc.sys.intl.xiaomi.com
-ccc.sys.miui.com
-ccc.sys.intl.xiaomi.com
-
-
-# AMAZON 
-device-metrics-us.amazon.com
-device-metrics-eu.amazon.com
-device-metrics-fe.amazon.com
-fls-na.amazon.com
-fls-eu.amazon.com
-unagi-eu.amazon.com
-avpk-a1qm4gk9wf1u77-1.zaz.api.amazonvideo.com
-metrics.amazon.com
-telemetry.amazon.com
-9w2zed1szg.execute-api.us-east-1.amazonaws.com
-ads.amazon.com
-advertising.amazon.com
-adservice.amazon.com
-adservice.amazon.co.uk
-adservice.amazon.de
-adservice.amazon.fr
-adservice.amazon.ca
-adservice.amazon.in
-device-metrics-us.amazon.com
-device-metrics.amazon.com
-dcape-na.amazon.com
-dcape.amazon.com
-metrics.amazon.com
-prod.tahoe.amazon.com
-recommendations.amazon.com
-recommendations.amazon.co.uk
-fls-na.amazon.com
-fls.amazon.com
-fireoscaptiveportal.com
-logs.amazon.com
-
-
-# NVIDIA
-telemetry.nvidia.com
-gfwsl.geforce.com
-events.gfe.nvidia.com
-
-
-# FIREFOX
-incoming.telemetry.mozilla.org
-telemetry.mozilla.org
-telemetry.mozilla.com
-incoming.telemetry.prod.mozaws.net
-metrics.mozilla.com
-normandy.cdn.mozilla.net
-normandy.services.mozilla.com
-crash-reports.mozilla.com
-crash-stats.mozilla.com
-reports.mozilla.com
-fhr.data.mozilla.com
-data.mozilla.com
-suggest.mozilla.org
-suggestions.services.mozilla.com
-
-
-# CARTOONNETWORK
+# CARTOON NETWORK
 analytics.cartoonnetworkasia.com
 analytics.cartoonnetwork.com.au
 analytics.cartoonnetwork.co.uk
@@ -327,132 +392,22 @@ analytics.cartoonnetworkindia.com
 analytics.cartoonnetwork.jp
 analytics.cartoonnetworkmena.com
 
+# SPOTIFY
+stats.spotify.com
+audio-fa.scdn.co
+audio4.spotify.com
 
-# ANDROID
-logcat.googleplex.com
-data.mistat.xiaomi.com
-tracking.opencpu.org
-tracking.intl.xiaomi.com
-tss.htc.com
-s-update.samsung.com
-diagnostics.me-cloud.com
-
-
-# SAMSUNG
-samsungacr.com
-samsungads.com
-samsungadhub.com
-empdownprd.samsungcloudsolution.com
-gld.push.samsungosp.com
-analytics-api.samsunghealthcn.com
-analytics.bigdata.samsung.com
-configprd.samsungcloudsolution.net
-lcprd1.samsungcloudsolution.net
-oempprd.samsungcloudsolution.com
-sas.samsungcloudsolution.com
-tvpnlinupepgpeu.samsungcloud.tv
-osb-eusvc-v2.samsungqbe.com
-events.samsungads.com
-ads.samsungads.com
-ad.samsungadhub.com
-rportals.com
-adgear.com
-advertiserportals.com
-tls.samsungqbe.com
-osb-v2.samsungqbe.com
-osb-tnc-v2-appsacc.samsungqbe.com
-osb-auth-eusvc-v2.samsungqbe.com
-scs.samsungqbe.com
-
-
-# LG 
-lgtvsdp.com
-lgsmartad.com
-lgappstv.com
-lgtvonline.lge.com
-alphonso.tv
-log.internetat.tv
-ad.lgappstv.com
-ibis.lgappstv.com
-jp.rdx2.lgtvsdp.com
-jp.lgtvsdp.com
-jp.info.lgsmartad.com
-lgad.cjpowercast.com.edgesuite.net
-ngfts.lge.com 
-smartclip.com
-smartclip.net
-smartshare.lgtvsdp.com
-us.ad.lgsmartad.com
-us.ibs.lgappstv.com
-us.info.lgsmartad.com
-us.lgtvsdp.com # #117
-us.rdx2.lgtvsdp.com
-yumenetworks.com
-aic-ngfts.lge.com
-us.cdpbeacon.lgtvcommon.com
-us.cdpsvc.lgtvcommon.com
-us.homeprv.lgtvcommon.com
-us.nudge.lgtvcommon.com
-us.rdl.lgtvcommon.com
-us.recommend.lgtvcommon.com
-us.lgsmartad.com
-us.service.lgtvcommon.com
-
-
-# PANASONIC
-0077777700140002.myhomescreen.tv  
-collect.myhomescreen.tv  
-usage.myhomescreen.tv  
-collect-us-fy2014.myhomescreen.tv  
-usage-us-fy2018.myhomescreen.tv  
-collect-eu-fy2016.myhomescreen.tv  
-usage-eu-fy2017.myhomescreen.tv  
-campaigns.panasonic.eu
-
-
-# ROKU
-cooper.logs.roku.com  
-track.sr.roku.com  
-p.ads.roku.com  
-scribe.logs.roku.com  
-cloudservices.roku.com  
-bif.sr.roku.com  
-traces.sr.roku.com  
-austin.logs.roku.com  
-liberty.logs.roku.com
-
-
-# GENERAL
-api.amplitude.com            
-data.lumosity.com             
-telemetry.crashlytics.com    
-collector-01.sentry.io       
-stats.pushbullet.com           
-metrics.mixpanel.com          
-analytics.segment.io         
-track.clevertap.com           
-stats.bugsnag.com             
-events.bitrise.io            
-api.rollbar.com               
-tracker.appsignal.com         
-monitoring.datadoghq.com      
-telemetry.cloudflareinsights.com 
-log.steampowered.com          
-updates.slack.com             
-stats.spotify.com                            
-telemetry.jetbrains.com      
-metrics.notion.so             
-log.vivaldi.net               
-api.zoom.us                   
-events.discord.com             
-graph.instagram.com
+# GENERAL / MISC
+data.lumosity.com
+stats.pushbullet.com
+events.bitrise.io
+telemetry.cloudflareinsights.com
+log.steampowered.com
+telemetry.jetbrains.com
+metrics.notion.so
+log.vivaldi.net
+events.discord.com
 api.uca.cloud.unity3d.com
-api.branch.io
-crashlogs.whatsapp.net
-pixel.facebook.com
-connect.facebook.net
-analytics.twitter.com
-ads.twitter.com
 servicesupport.hicloud.com
 api.amd.co
 beacon.cloudflare.com
@@ -460,19 +415,25 @@ analytics.crazygames.com
 csp-reporting.cloudflare.com
 csp.secureserver.net
 dc.banggood.com
-images.performance.volvotrucks.com
 gtreus.aliexpress.com
 aemetrics.aliexpress.ru
 beacon-api.aliyuncs.com
 accscdn.m.taobao.com
 analytics.archive.org
-images.premier.email.shutterstock.com
-analytics.yahoo.com
-static.hotjar.com
-an.yandex.ru
-mc.yandex.ru
 ads.soundcloud.com
+images.performance.volvotrucks.com
+images.premier.email.shutterstock.com
+logcat.googleplex.com
+tracking.opencpu.org
+tss.htc.com
+diagnostics.me-cloud.com
+graph.instagram.com
 
+# ANDROID / MISC TRACKING
+logcat.googleplex.com
+tracking.opencpu.org
+tss.htc.com
+diagnostics.me-cloud.com
 
 # SMARTHOME
 metrics.arlo.com
@@ -482,7 +443,5 @@ telemetry.controlmyspa.com
 analytics.controlmyspa.com
 metrics.controlmyspa.com
 report.tuya.com
-analytics.meethue.com
 log.tuya.com
 analytics.withings.com
-log.withings.com
